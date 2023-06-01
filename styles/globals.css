@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Roboto , sans-serif;
+    scroll-snap-type: both mandatory;
+}
+::selection {
+    color: #5674d7;
+    background: rgb(198, 221, 255);
+}
